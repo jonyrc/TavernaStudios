@@ -1,0 +1,43 @@
+::-webkit-scrollbar {
+    display: none;
+}
+.parallax-fone{
+    text-align: center;
+    padding : 160px 0;
+    margin-top: 60px;
+    size: 100%;
+    background-image : url("imgs/fone.jpg");
+}
+.parallax-black{
+    text-align: center;
+    background-position: center;
+    padding : 160px 0;
+    margin-top: 60px;
+    size: 100%;
+    background-image : url("imgs/black.jpg");
+    background-repeat: no-repeat;
+}
+.bg-fixed{
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.botao {
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    background-color: rgba(222, 226, 230, 0.822);
+}
+.fixed-top.opaque { 
+    background-color: #000000;
+    transition: background-color .5s ease 0s;
+}
+.fixed-top { 
+    background-color: rgba(255,255,255,0) ; 
+    transition: background-color .5s ease 0s;
+}
+.footerF{
+    bottom: 0;
+    background-color: black;
+
+}
